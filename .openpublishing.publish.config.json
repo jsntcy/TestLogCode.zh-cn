@@ -18,10 +18,14 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "test@abc.com"
+  ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -39,7 +43,9 @@
       }
     }
   ],
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "targets": {},
   "need_generate_pdf": false,
   "need_generate_intellisense": false
 }
